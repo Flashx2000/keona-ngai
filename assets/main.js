@@ -249,7 +249,7 @@
   const grid = $('[data-grid]');
   if (grid && window.WORK) {
     const W = window.WORK, cats = ['All', ...new Set(W.map((w) => w.cat))];
-    const src = (w, s) => `https://picsum.photos/seed/${w.seed}/${s === 'lg' ? Math.round(w.r * 1600) + '/1600' : Math.round(w.r * 900) + '/900'}`;
+    const src = (w, s) => { const h = s === 'lg' ? 1600 : 900; return `https://images.unsplash.com/${w.seed}?auto=format&fit=crop&q=70&w=${Math.round(w.r * h)}&h=${h}`; };
     grid.innerHTML = W.map((w, i) => `
       <a class="tile" href="#" data-i="${i}" data-cat="${w.cat}" data-cursor="Open" style="--i:${i}">
         <figure class="ph" style="aspect-ratio:${w.r}"><img loading="lazy" src="${src(w)}" alt="${w.title} — ${w.cat} photography by Keona Ngai"></figure>
