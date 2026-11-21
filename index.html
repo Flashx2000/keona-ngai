@@ -7,62 +7,98 @@
 <meta name="description" content="Keona Ngai is a Vancouver photographer for brand events, corporate functions, activations and weddings. Serving Metro Vancouver, available for travel. Coverage from $300.">
 <meta property="og:title" content="Keona Ngai — Photographer, Vancouver">
 <meta property="og:description" content="Brand events, corporate, activations and weddings. Based in Vancouver, available for travel.">
-<meta name="theme-color" content="#0c0b0a">
+<meta name="theme-color" content="#f6f1e9">
 <meta name="robots" content="noindex"><!-- PREVIEW ONLY: remove this line at launch -->
 <script>document.documentElement.classList.add('js')</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://picsum.photos">
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter+Tight:wght@400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <main>
   <!-- All images are PLACEHOLDERS — replace before launch -->
   <section class="hero">
-    <img src="https://picsum.photos/seed/kn-hero-1/1600/1000" alt="" fetchpriority="high">
+    <div class="hero__media"><img src="https://picsum.photos/seed/kn-hero-1/1600/1000" alt="" fetchpriority="high"></div>
+    <a class="badge" href="contact.html" aria-label="Now booking 2027 — book your date">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><defs><path id="ring" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs><text><textPath href="#ring" textLength="234">Now booking 2027 ✦ Book your date ✦</textPath></text></svg>
+      <span>↗</span>
+    </a>
     <div class="hero__body wrap">
-      <p class="label" style="color:#fff;margin-bottom:14px">Brand events · Corporate · Activations · Weddings</p>
-      <h1 class="hero__title">Keona Ngai</h1>
+      <p class="label hero__kicker">Brand events · Corporate · Activations · Weddings</p>
+      <h1 class="hero__title" aria-label="Keona Ngai"><span class="m"><span class="mi">Keona</span></span> <span class="m"><span class="mi"><em>Ngai</em></span></span></h1>
       <div class="hero__foot">
-        <p>Vancouver photographer for the rooms worth remembering.</p>
-        <a class="btn" href="contact.html">Check my date →</a>
+        <p>Photographs that feel the way the room felt.</p>
+        <span class="label" style="color:#fff">Vancouver, BC — available for travel</span>
+        <a class="btn" href="contact.html">Book your date →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__t"><span>Brand events</span><i>✦</i><span>Launches</span><i>✦</i><span>Activations</span><i>✦</i><span>Conferences</span><i>✦</i><span>Galas</span><i>✦</i><span>Weddings</span><i>✦</i><span>Elopements</span><i>✦</i></div>
+    <div class="marquee__t"><span>Brand events</span><i>✦</i><span>Launches</span><i>✦</i><span>Activations</span><i>✦</i><span>Conferences</span><i>✦</i><span>Galas</span><i>✦</i><span>Weddings</span><i>✦</i><span>Elopements</span><i>✦</i></div>
+  </div>
+
+  <section class="sec wrap">
+    <div class="intro">
+      <!-- PLACEHOLDER PORTRAIT -->
+      <div class="ph ph--arch r-34" data-reveal="img"><img loading="lazy" decoding="async" src="https://picsum.photos/seed/kn-portrait/750/1000" alt="Placeholder — portrait of Keona Ngai"></div>
+      <div data-stagger>
+        <p class="label"><span class="star">✦</span>Hello, I'm Keona</p>
+        <p class="statement" style="margin-top:22px">I photograph the nights brands plan for months and the days couples plan for years — <em>with the same care for both.</em></p>
+        <span class="sign">Keona</span>
+        <a class="btn" href="about.html" style="margin-top:30px">More about me →</a>
       </div>
     </div>
   </section>
 
   <section class="sec light">
     <div class="wrap">
-      <div class="sec-head"><h2 class="h-lg" data-reveal>What I <em>shoot</em></h2><a class="label link" href="services.html">Services &amp; rates →</a></div>
-      <div data-reveal>
-        <a class="svc" href="services.html"><h3>Brand Events &amp; Activations</h3><span>→</span></a>
-        <a class="svc" href="services.html"><h3>Corporate &amp; Conferences</h3><span>→</span></a>
-        <a class="svc" href="services.html#weddings"><h3>Weddings &amp; Elopements</h3><span>→</span></a>
+      <div class="sec-head"><h2 class="h-lg" data-reveal="mask">What I <em>shoot</em></h2><a class="label link" href="services.html">Services &amp; rates →</a></div>
+      <div data-stagger>
+        <a class="svc" href="services.html"><small>01</small><h3>Brand Events &amp; Activations</h3><span>→</span></a>
+        <a class="svc" href="services.html"><small>02</small><h3>Corporate &amp; Conferences</h3><span>→</span></a>
+        <a class="svc" href="services.html#weddings"><small>03</small><h3>Weddings &amp; Elopements</h3><span>→</span></a>
       </div>
     </div>
   </section>
 
   <section class="sec wrap">
-    <div class="sec-head"><h2 class="h-lg" data-reveal>Recent <em>work</em></h2><a class="label link" href="work.html">View all →</a></div>
+    <div class="sec-head"><h2 class="h-lg" data-reveal="mask">Recent <em>work</em></h2><a class="label link" href="work.html">View all →</a></div>
     <!-- PLACEHOLDER PROJECTS -->
-    <div class="cols3" data-reveal>
-      <a class="shot" href="work.html"><figure><div class="ph r-45"><img loading="lazy" decoding="async" src="https://picsum.photos/seed/kn-w-01/640/800" alt="Placeholder — brand launch"></div><figcaption><h3>Flagship Launch Night</h3><span class="label">Brand</span></figcaption></figure></a>
-      <a class="shot" href="work.html"><figure><div class="ph r-45"><img loading="lazy" decoding="async" src="https://picsum.photos/seed/kn-w-04/640/800" alt="Placeholder — conference"></div><figcaption><h3>Leadership Summit</h3><span class="label">Corporate</span></figcaption></figure></a>
-      <a class="shot" href="work.html"><figure><div class="ph r-45"><img loading="lazy" decoding="async" src="https://picsum.photos/seed/kn-w-02/640/800" alt="Placeholder — wedding"></div><figcaption><h3>A Stanley Park Wedding</h3><span class="label">Wedding</span></figcaption></figure></a>
+    <div class="cols3 shots">
+      <a class="shot" href="work.html"><figure><div class="ph r-45" data-reveal="img"><img loading="lazy" decoding="async" src="https://picsum.photos/seed/kn-w-01/640/800" alt="Placeholder — brand launch"></div><figcaption><h3>Flagship Launch Night</h3><span class="label">Brand</span></figcaption></figure></a>
+      <a class="shot" href="work.html"><figure><div class="ph ph--arch r-23" data-reveal="img"><img loading="lazy" decoding="async" src="https://picsum.photos/seed/kn-w-02/640/960" alt="Placeholder — wedding"></div><figcaption><h3>A Stanley Park Wedding</h3><span class="label">Wedding</span></figcaption></figure></a>
+      <a class="shot" href="work.html"><figure><div class="ph r-45" data-reveal="img"><img loading="lazy" decoding="async" src="https://picsum.photos/seed/kn-w-04/640/800" alt="Placeholder — conference"></div><figcaption><h3>Leadership Summit</h3><span class="label">Corporate</span></figcaption></figure></a>
     </div>
   </section>
 
-  <section class="sec wrap" style="padding-top:0">
-    <p class="label" style="margin-bottom:18px">Worked with</p>
+  <section class="sec sage">
+    <div class="wrap">
+      <p class="label" style="text-align:center;margin-bottom:30px"><span class="star">✦</span>Kind words</p>
+      <!-- PLACEHOLDER TESTIMONIALS — replace with real client quotes -->
+      <div class="quotes" data-reveal>
+        <figure class="quote is-on"><blockquote>“Keona was everywhere and nowhere at once. We had social-ready selects before the last guest left.”</blockquote><cite class="label">Client name — Marketing Lead, Brand One</cite></figure>
+        <figure class="quote"><blockquote>“The easiest vendor we worked with all year. Early, prepared, and not one moment missed.”</blockquote><cite class="label">Client name — Events Manager, Brand Two</cite></figure>
+        <figure class="quote"><blockquote>“We forgot there was a camera. Then we opened the gallery and cried through the whole thing.”</blockquote><cite class="label">Couple names — Married in Vancouver</cite></figure>
+      </div>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="sec wrap">
+    <p class="label" style="margin-bottom:20px"><span class="star">✦</span>In good company</p>
     <!-- PLACEHOLDER — replace with real client names or logos -->
-    <div class="brands" data-reveal>
+    <div class="brands" data-stagger>
       <div class="brand">Brand One</div><div class="brand">Brand Two</div><div class="brand">Brand Three</div><div class="brand">Brand Four</div><div class="brand">Brand Five</div><div class="brand">Brand Six</div>
     </div>
   </section>
 
-  <section class="sec light cta">
+  <section class="sec dark cta">
     <div class="wrap">
-      <p class="label" data-reveal>From $300 for two hours · Metro Vancouver &amp; beyond</p>
-      <h2 class="h-xl" data-reveal>Let's make it <em>unforgettable.</em></h2>
-      <div class="cta__btns"><a class="btn btn--solid" href="contact.html">Start an enquiry →</a><a class="btn" href="services.html">See packages</a></div>
+      <p class="label" data-reveal><span class="star">✦</span>From $300 for two hours · Metro Vancouver &amp; beyond</p>
+      <h2 class="h-xl" data-reveal="mask">Let's make it <em>unforgettable.</em></h2>
+      <div class="cta__btns" data-reveal><a class="btn btn--solid" href="contact.html">Book your date →</a><a class="btn" href="services.html">See packages</a></div>
     </div>
   </section>
 </main>
